@@ -1,4 +1,4 @@
-name: Action for ${{ github.repository }}
+name: Action for git-auto-merge
 
 on: 
   workflow_dispatch:
@@ -16,7 +16,7 @@ on:
         required: true
         type: choice
         options:
-          - ${{ github.repository }}
+          - git-auto-merge
 
 permissions:
   id-token: write
