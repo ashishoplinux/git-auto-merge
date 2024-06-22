@@ -8,9 +8,9 @@ on:
         required: true
         type: choice
         options:
-          - dev
-          - stage
-          - prod
+          - development
+          - staging
+          - main
       application:
         description: 'Application name'
         required: true
